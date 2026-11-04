@@ -12,7 +12,7 @@ def safe_path(value):
  return value
 
 raw=Path('site-manifest.json').read_bytes()
-assert sha(raw)=='266e9cdbd94c4b00639765d5dfc1eb983a3c8126775a4b6d016385e0c4c450e9', 'Manifest does not match this release'
+assert sha(raw)=='3b14966ab75b4dbdd378625d3c90cf891dab47dc81cc7f8878e8398677342b8c', 'Manifest does not match this release'
 manifest=json.loads(raw)
 archive=Path('site-code.zip')
 assert sha(archive.read_bytes())==manifest['code_sha256'], 'Code archive mismatch'

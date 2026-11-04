@@ -1,8 +1,8 @@
 {
-  "version": "eager-hd-20261104",
+  "version": "persistent-media-20261104",
   "edition": "444",
   "repository": "liangma-444",
-  "code_sha256": "34e71b865865bc09142186c21c97724828eca056b8baf73f0d62fbd1bc2199fc",
+  "code_sha256": "a587aba874b98ebbaaeb65dbfb007ec356593da126e492033c1d76923e20d910",
   "files": [
     {
       "path": ".nojekyll",
@@ -11,8 +11,8 @@
     },
     {
       "path": "app.js",
-      "sha256": "defd2733e55e18d7163ccdf6e9457f9d8cc6008d39260ec494adc3d664f6722c",
-      "bytes": 22815
+      "sha256": "0d04e3a48d9420004eee817dd7de964c39f17437a1c032ae81f91e3505351e65",
+      "bytes": 23165
     },
     {
       "path": "brand/quantum-twins-black.png",
@@ -1378,8 +1378,18 @@
     },
     {
       "path": "index.html",
-      "sha256": "daa4cb051df4d4b3ee98cd022b1920f60a17f8440713d608fdd8b3bc38322ab3",
-      "bytes": 13905
+      "sha256": "78180f03bc7804a935dedb0e06f22a552c49c6a45cc8f4374fdb76d5f666dbcb",
+      "bytes": 14170
+    },
+    {
+      "path": "media-cache-sw.js",
+      "sha256": "ca5cebe1770b6d808196a5199c24f4f6df34aac3b42a081214a648a9db22b908",
+      "bytes": 5745
+    },
+    {
+      "path": "mediaCache.js",
+      "sha256": "7c45cedfe6518f7e02407d5fbe18f5cdb8cb040dbdf87ae456058a61eafcdd78",
+      "bytes": 2274
     },
     {
       "path": "mediaQuality.js",
@@ -1389,14 +1399,13 @@
     },
     {
       "path": "mediaWarmup.js",
-      "sha256": "038ffebe40fad7ebddb4ff0ae3fc87028d7d83fb561f8308092b6765fe87eeb2",
-      "bytes": 3083
+      "sha256": "9d343757b6c3354c0aca53d0708f8aeab5008e10bd08862d9da333cea18e22fc",
+      "bytes": 355
     },
     {
       "path": "style.css",
-      "sha256": "5b307143875c6bf4d8d289a6a0fe2357aae82eaeb45e516d263523d676b8637d",
-      "bytes": 46509,
-      "origin": "https://qz1859202-prog.github.io/liangma-444"
+      "sha256": "dd2cde441f094dc7659b3eb1657af28a62afd4c5766681abd9f6c64bea5883d4",
+      "bytes": 46761
     },
     {
       "path": "team.js",
@@ -1459,5 +1468,5 @@
       "origin": "https://qz1859202-prog.github.io/liangma-444"
     }
   ],
-  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=eager-hd-20261104"
+  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=persistent-media-20261104"
 }
