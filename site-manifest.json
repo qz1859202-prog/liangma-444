@@ -1,8 +1,8 @@
 {
-  "version": "restore-flip-hd-20261104",
+  "version": "eager-hd-20261104",
   "edition": "444",
   "repository": "liangma-444",
-  "code_sha256": "eecc1e07a599697470234c17a10b1fb629d500a98f9d0dcc59c9cf438bcc1885",
+  "code_sha256": "34e71b865865bc09142186c21c97724828eca056b8baf73f0d62fbd1bc2199fc",
   "files": [
     {
       "path": ".nojekyll",
@@ -11,8 +11,8 @@
     },
     {
       "path": "app.js",
-      "sha256": "9f16029646164a457d23024c750383cecfc4a4333d804f0d2cac19a170b54c1f",
-      "bytes": 22038
+      "sha256": "defd2733e55e18d7163ccdf6e9457f9d8cc6008d39260ec494adc3d664f6722c",
+      "bytes": 22815
     },
     {
       "path": "brand/quantum-twins-black.png",
@@ -1378,24 +1378,25 @@
     },
     {
       "path": "index.html",
-      "sha256": "81e9816c4e0704ee969fb0c3b1fd84715690c6eadacf062df603567fa557d3c2",
-      "bytes": 13927
+      "sha256": "daa4cb051df4d4b3ee98cd022b1920f60a17f8440713d608fdd8b3bc38322ab3",
+      "bytes": 13905
     },
     {
       "path": "mediaQuality.js",
       "sha256": "8cd7f61b2ed8cffa71af5529467894ad93d21cb612417e709264a913c809f3c5",
-      "bytes": 147
+      "bytes": 147,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "mediaWarmup.js",
-      "sha256": "37777ea1175652bd254c3ad76dc1be485e9220d11a91c415c9ec00ccf0efeb2f",
-      "bytes": 3033,
-      "origin": "https://qz1859202-prog.github.io/liangma-444"
+      "sha256": "038ffebe40fad7ebddb4ff0ae3fc87028d7d83fb561f8308092b6765fe87eeb2",
+      "bytes": 3083
     },
     {
       "path": "style.css",
       "sha256": "5b307143875c6bf4d8d289a6a0fe2357aae82eaeb45e516d263523d676b8637d",
-      "bytes": 46509
+      "bytes": 46509,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "team.js",
@@ -1458,5 +1459,5 @@
       "origin": "https://qz1859202-prog.github.io/liangma-444"
     }
   ],
-  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=restore-flip-hd-20261104"
+  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=eager-hd-20261104"
 }
