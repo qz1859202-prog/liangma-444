@@ -1,8 +1,8 @@
 {
-  "version": "covers-controls-20261104",
+  "version": "restore-flip-hd-20261104",
   "edition": "444",
   "repository": "liangma-444",
-  "code_sha256": "f6ea3e069863c392515a8ac4d46ca5c33c11fbacb33aaf726d0a9f11c47c0d0b",
+  "code_sha256": "eecc1e07a599697470234c17a10b1fb629d500a98f9d0dcc59c9cf438bcc1885",
   "files": [
     {
       "path": ".nojekyll",
@@ -11,8 +11,8 @@
     },
     {
       "path": "app.js",
-      "sha256": "a4a366ec680789b1a743f4584a840478abf1f531e63897a6bf9b88985f7a9f26",
-      "bytes": 23370
+      "sha256": "9f16029646164a457d23024c750383cecfc4a4333d804f0d2cac19a170b54c1f",
+      "bytes": 22038
     },
     {
       "path": "brand/quantum-twins-black.png",
@@ -23,7 +23,8 @@
     {
       "path": "collection.js",
       "sha256": "559c288749baf44d397462f4210f1b22d146b118c75b88b4a024b458a12ebb08",
-      "bytes": 16406
+      "bytes": 16406,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "favicon.svg",
@@ -1377,25 +1378,24 @@
     },
     {
       "path": "index.html",
-      "sha256": "a5c1de4e8cec7eb20c9a3571d30370c05f4d4ce37babc441af27c92ccd54532c",
-      "bytes": 14358,
-      "origin": "https://qz1859202-prog.github.io/liangma-444"
+      "sha256": "81e9816c4e0704ee969fb0c3b1fd84715690c6eadacf062df603567fa557d3c2",
+      "bytes": 13927
     },
     {
       "path": "mediaQuality.js",
-      "sha256": "65a7022e55623729b68274270673701a75787b8e88469830d966bbdabe8c548b",
-      "bytes": 366,
-      "origin": "https://qz1859202-prog.github.io/liangma-444"
+      "sha256": "8cd7f61b2ed8cffa71af5529467894ad93d21cb612417e709264a913c809f3c5",
+      "bytes": 147
     },
     {
       "path": "mediaWarmup.js",
       "sha256": "37777ea1175652bd254c3ad76dc1be485e9220d11a91c415c9ec00ccf0efeb2f",
-      "bytes": 3033
+      "bytes": 3033,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "style.css",
-      "sha256": "901127829a5521496dc3a0f19f25875162286b662a843babe50fc15b3dff16a7",
-      "bytes": 46935
+      "sha256": "5b307143875c6bf4d8d289a6a0fe2357aae82eaeb45e516d263523d676b8637d",
+      "bytes": 46509
     },
     {
       "path": "team.js",
@@ -1458,5 +1458,5 @@
       "origin": "https://qz1859202-prog.github.io/liangma-444"
     }
   ],
-  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=covers-controls-20261104"
+  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=restore-flip-hd-20261104"
 }
