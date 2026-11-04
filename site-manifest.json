@@ -1,8 +1,8 @@
 {
-  "version": "members-workflow-20261104",
+  "version": "mobile-video-20261104",
   "edition": "444",
   "repository": "liangma-444",
-  "code_sha256": "9d9845c27e7a2d546a5d7dcdf0069b1a625b4aa6f769ea8814ff2a5ac3db5081",
+  "code_sha256": "3ebd47d59fe49b1cfee1ca6174efde9699ea8a4a27c03f2a61266066f95aafac",
   "files": [
     {
       "path": ".nojekyll",
@@ -11,8 +11,8 @@
     },
     {
       "path": "app.js",
-      "sha256": "1e900fb2b13010736d0a385a1ec8c16d9f366fa756403af5cea6c6934d311da4",
-      "bytes": 21176
+      "sha256": "8d50a707b8949bfe5d54bf785f7792c860c881b14e196ba2f639f94affa32975",
+      "bytes": 21200
     },
     {
       "path": "brand/quantum-twins-black.png",
@@ -22,9 +22,8 @@
     },
     {
       "path": "collection.js",
-      "sha256": "3d10a1702bc8e5b9f36d89caaa6169f34e13edadf58d9b5adbd50afdcdd65c78",
-      "bytes": 7650,
-      "origin": "https://qz1859202-prog.github.io/liangma-444"
+      "sha256": "13deb84e143605bbac2574d0a8d0291d48da167bcf9ef5892054f9e156183765",
+      "bytes": 7670
     },
     {
       "path": "favicon.svg",
@@ -1337,7 +1336,8 @@
     {
       "path": "fonts/FONT-NOTICES.txt",
       "sha256": "2ebe22f1e619fa4f51dbcc7dd0273a4b4ae5bedfe0cba810df49737bcbdd4719",
-      "bytes": 484
+      "bytes": 484,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "fonts/Poppins-OFL.txt",
@@ -1354,17 +1354,20 @@
     {
       "path": "fonts/poppins-medium.woff2",
       "sha256": "4e6bcd8451cfb3d3aee06de8ddb210c86ca085a09c2ec2e051662d497c598b43",
-      "bytes": 5856
+      "bytes": 5856,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "fonts/poppins-regular.woff2",
       "sha256": "2b03078aae0dea8fecd797eacc614515ada8018d6c1f05f0d73c2d8351668515",
-      "bytes": 5980
+      "bytes": 5980,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "fonts/source-han-444.woff2",
       "sha256": "ea6f0b6de0435439106cfea47126e3f33629c5ecfb312d5a97456336c04a93e8",
-      "bytes": 167916
+      "bytes": 167916,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "hls.light.min.js",
@@ -1375,17 +1378,20 @@
     {
       "path": "index.html",
       "sha256": "3daec39cfbbee171814c9196092a488b55a4cefcf9b84a0a2e6fc000cd0d305c",
-      "bytes": 13975
+      "bytes": 13975,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "style.css",
       "sha256": "a5150fee0c158672651ac753cb950c9707319c5a48a3d985e9055b69df0df274",
-      "bytes": 45532
+      "bytes": 45532,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "team.js",
       "sha256": "09169318f1c75cbaff0505fb93352a0d1ece1eb75da014081f8c07c623f3ffdb",
-      "bytes": 2830
+      "bytes": 2830,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "team/tang-wenhui.webp",
@@ -1432,13 +1438,15 @@
     {
       "path": "workflow/workflow-stage.css",
       "sha256": "6c7c68528975efc8156ffd6a696e3d53921e47fa98fb4ddab6152948771f66f3",
-      "bytes": 10597
+      "bytes": 10597,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "workflow/workflow-stage.js",
       "sha256": "e83e46d6958c60dd5d14275f6d2b0bd4bbbc4b5483015ea5a8b5665eb29033ad",
-      "bytes": 21840
+      "bytes": 21840,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     }
   ],
-  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=members-workflow-20261104"
+  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=mobile-video-20261104"
 }

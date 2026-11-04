@@ -12,7 +12,7 @@ def safe_path(value):
  return value
 
 raw=Path('site-manifest.json').read_bytes()
-assert sha(raw)=='ce04032b9f7b66199fe431c48d74c1f587e60beee18a007b23dc728fabc652f6', 'Manifest does not match this release'
+assert sha(raw)=='bd46b4773f6e3c1e7de33ba8e505e4985f3e66873a16c2439b183f310e749bd6', 'Manifest does not match this release'
 manifest=json.loads(raw)
 archive=Path('site-code.zip')
 assert sha(archive.read_bytes())==manifest['code_sha256'], 'Code archive mismatch'
@@ -67,4 +67,12 @@ for film in films:
    assert (film.parent/relative).is_file(), 'Missing HLS segment: '+relative
 assert len([i for i in expected if i.startswith('films/')])==217
 assert (root/'index.html').is_file()
+# Generate universally playable H.264/AAC MP4, with metadata at the front for mobile startup.
+import subprocess,shutil
+if not shutil.which('ffmpeg'):
+ subprocess.run(['sudo','apt-get','update','-qq'],check=True)
+ subprocess.run(['sudo','apt-get','install','-y','-qq','ffmpeg'],check=True)
+for film in films:
+ subprocess.run(['ffmpeg','-nostdin','-v','error','-y','-i',str(film),'-map','0:v:0','-map','0:a:0?','-vf',"scale=w='min(1280,iw)':h='min(720,ih)':force_original_aspect_ratio=decrease:force_divisible_by=2",'-c:v','libx264','-preset','veryfast','-crf','23','-profile:v','main','-level:v','4.0','-pix_fmt','yuv420p','-c:a','aac','-b:a','128k','-movflags','+faststart',str(film.parent/'playback.mp4')],check=True)
+ assert (film.parent/'playback.mp4').stat().st_size>1000
 print('Verified '+manifest['edition']+' portfolio: '+str(len(expected))+' assets, 10 complete films, independent public Pages deployment.')
