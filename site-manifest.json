@@ -1,8 +1,8 @@
 {
-  "version": "zhang-wechat-20261104",
+  "version": "covers-controls-20261104",
   "edition": "444",
   "repository": "liangma-444",
-  "code_sha256": "19814be426c2496ee90b7c878b18c5fc2443caa7aa0596c7faf34e0c13b17631",
+  "code_sha256": "f6ea3e069863c392515a8ac4d46ca5c33c11fbacb33aaf726d0a9f11c47c0d0b",
   "files": [
     {
       "path": ".nojekyll",
@@ -11,8 +11,8 @@
     },
     {
       "path": "app.js",
-      "sha256": "b800993e134775d52c8e04ef1c9bd66f6ed4e211ac35f0e8c8ecc512a848c449",
-      "bytes": 22992
+      "sha256": "a4a366ec680789b1a743f4584a840478abf1f531e63897a6bf9b88985f7a9f26",
+      "bytes": 23370
     },
     {
       "path": "brand/quantum-twins-black.png",
@@ -22,9 +22,8 @@
     },
     {
       "path": "collection.js",
-      "sha256": "13deb84e143605bbac2574d0a8d0291d48da167bcf9ef5892054f9e156183765",
-      "bytes": 7670,
-      "origin": "https://qz1859202-prog.github.io/liangma-444"
+      "sha256": "559c288749baf44d397462f4210f1b22d146b118c75b88b4a024b458a12ebb08",
+      "bytes": 16406
     },
     {
       "path": "favicon.svg",
@@ -1367,7 +1366,8 @@
     {
       "path": "fonts/source-han-444.woff2",
       "sha256": "caabc42a13c35d597131f8e55dcdda7db9115e9356edd7b61fff669985f3d9c7",
-      "bytes": 170132
+      "bytes": 170132,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "hls.light.min.js",
@@ -1378,22 +1378,30 @@
     {
       "path": "index.html",
       "sha256": "a5c1de4e8cec7eb20c9a3571d30370c05f4d4ce37babc441af27c92ccd54532c",
-      "bytes": 14358
+      "bytes": 14358,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "mediaQuality.js",
       "sha256": "65a7022e55623729b68274270673701a75787b8e88469830d966bbdabe8c548b",
-      "bytes": 366
+      "bytes": 366,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
+    },
+    {
+      "path": "mediaWarmup.js",
+      "sha256": "37777ea1175652bd254c3ad76dc1be485e9220d11a91c415c9ec00ccf0efeb2f",
+      "bytes": 3033
     },
     {
       "path": "style.css",
-      "sha256": "f4087c1bf2d64803f4b2b295ac5fb9acd653db3d7aaa88f43fa6a52039952523",
-      "bytes": 46699
+      "sha256": "901127829a5521496dc3a0f19f25875162286b662a843babe50fc15b3dff16a7",
+      "bytes": 46935
     },
     {
       "path": "team.js",
       "sha256": "77b92f144d3e26e542ad67e1a5baf29543150a0a8213e45527dc0ea36ac63d59",
-      "bytes": 3235
+      "bytes": 3235,
+      "origin": "https://qz1859202-prog.github.io/liangma-444"
     },
     {
       "path": "team/tang-wenhui.webp",
@@ -1450,5 +1458,5 @@
       "origin": "https://qz1859202-prog.github.io/liangma-444"
     }
   ],
-  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=zhang-wechat-20261104"
+  "publish_after": "https://qz1859202-prog.github.io/liangma-111/?v=covers-controls-20261104"
 }
