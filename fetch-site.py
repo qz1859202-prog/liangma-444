@@ -98,6 +98,6 @@ print('Verified '+manifest['edition']+' portfolio: '+str(len(expected))+' assets
 
 # Publish the full-film CodaPan edition while retaining all legacy public assets.
 release_page=Path('codapan-20261109/index.html').read_bytes()
-assert sha(release_page)=='5863da9f5fbff92cf0da052267f0383a0b367f6d6df1d20d94a50f02bb391ec0', 'CodaPan release checksum mismatch'
+assert sha(release_page)=='e90f26493ecfe5770e3c456f0630ebb7afcf27b3ce915cc0e55c8ff8eda99837', 'CodaPan release checksum mismatch'
 (root/'index.html').write_bytes(release_page)
 print('Published 444 CodaPan edition: 15 works, 16 streaming sources; legacy assets retained.')
