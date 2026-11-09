@@ -95,3 +95,9 @@ assert len(media_checksums)==50
 
 (root/'media-checksums.json').write_text(json.dumps(media_checksums,indent=2))
 print('Verified '+manifest['edition']+' portfolio: '+str(len(expected))+' assets, 10 complete films, independent public Pages deployment.')
+
+# Publish the full-film CodaPan edition while retaining all legacy public assets.
+release_page=Path('codapan-20261109/index.html').read_bytes()
+assert sha(release_page)=='9235fac91795415fa0779090fa1af9e5f4369c0e9b303c6b5931e5bc702f5267', 'CodaPan release checksum mismatch'
+(root/'index.html').write_bytes(release_page)
+print('Published 444 CodaPan edition: 15 works, 16 streaming sources; legacy assets retained.')
